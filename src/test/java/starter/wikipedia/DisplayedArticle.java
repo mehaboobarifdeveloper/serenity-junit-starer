@@ -6,7 +6,7 @@ import org.openqa.selenium.support.FindBy;
 
 public class DisplayedArticle extends PageComponent {
 
-    @FindBy(id="firstHeading")
+    @FindBy(id="firstHeading And There")
     private WebElementFacade firstHeading;
 
     public String getFirstHeading() {
